@@ -54,11 +54,19 @@ Contains next plugins:
          -- This project adds CoffeeScript support to vim. It covers syntax, indenting, compiling, and more.
 
 ### Installation
-
-For install just clone git into ~/.vim, rename vimrc to .vimrc and move him to you home folder.  
+First thing - install ['Vundle'](https://github.com/VundleVim/Vundle.vim)
+```sh
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+Next just clone git into ~/.vim, rename vimrc to .vimrc and move him to you home folder.  
 ```sh
 git clone https://github.com/0x0BSoD/ideVim.git ~/.vim/ && mv ~/.vim/vimrc ~/.vimrc
 ```
+Then run in vim.
+```sh
+:PluginInstall
+```
+
 License
 ----
 
