@@ -57,7 +57,7 @@ Contains next plugins:
 
 For install just clone git into ~/.vim, rename vimrc to .vimrc and move him to you home folder.  
 ```sh
-git clone http://my.servebeer.com:60235/alex/ideVim.git ~/.vim/ && mv ~/.vim/vimrc ~/.vimrc
+git clone https://github.com/0x0BSoD/ideVim.git ~/.vim/ && mv ~/.vim/vimrc ~/.vimrc
 ```
 License
 ----
